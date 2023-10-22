@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>T-shirt</title>
+</head>
+<body>
+  <header id="navBar">
+    <div id="men">
+    
+      <div id="menu">
+        <div class="menu1">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Productos -->
+  <main>
+      <input id="inputBuscar" type="text" placeholder="Buscar remera/marca..." />
+      <ul>
+        <li class="botonCat btnCategoria seleccionado" data-marca="Todos">Todos</li>
+        <li class="botonCat btnCategoria" data-marca="Lacoste">Lacoste</li>
+        <li class="botonCat btnCategoria" data-marca="Gucci">Gucci</li>
+        <li class="botonCat btnCategoria" data-marca="Tommy Hilfiger">Tommy Hilfiger</li>
+        <li class="botonCat btnCategoria" data-marca="Calvin Klein">Calvin Klein</li>
+      </ul>
+      <div id="productos">
+      <!-- Acá van a ir todos los productos cargados en la base de datos (catálogo) -->
+      </div>
+  </main>
+
+  <section >
+      <h1 id="ocultar">
+          <span id="cantidadProductos">0</span>
+      </h1>
+      <div id="scroll">
+      <div id="carrito">
+          <!-- Acá van a estar todos los productos que tengamos en el carrito -->
+      </div>
+      </div>
+      <h2>Total: $<span id="totalCarrito">0</span></h2>
+      <a href="#" id="botonComprar" class="boton">Comprar</a>
+  </section>
+  <footer>
+   
+    </div>
+    <div class="pagos">
+        <img src="images/visa.jpg" alt="">
+        <img src="images/master.jpg" alt="">
+        <img src="images/mp.jpg" alt="">
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

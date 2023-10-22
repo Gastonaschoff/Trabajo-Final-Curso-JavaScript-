@@ -1,0 +1,60 @@
+[
+    
+        {
+            "id": 1,
+            "marca": "Lacoste",
+            "nombre": "Holiday",
+            "precio": 25,
+            "imagen": "holiday.jpg"
+        },
+        {
+            "id": 2,
+            "marca": "Lacoste",
+            "nombre": "Regular Fit",
+            "precio": 30,
+            "imagen":"lacoste.jpg"
+        },
+        {
+            "id": 3,
+            "marca": "Gucci",
+            "nombre": "Fresh",
+            "precio": 60,
+            "imagen":"fresh.jpg"
+        },
+        {
+            "id": 4,
+            "marca": "Gucci",
+            "nombre": "Colors",
+            "precio": 75,
+            "imagen": "colors.jpg"
+        },
+        {
+            "id": 5,
+            "marca": "Tommy Hilfiger",
+            "nombre": "Border",
+            "precio": 216,
+            "imagen": "border.jpg"
+        },
+        {
+            "id": 6,
+            "marca": "Tommy Hilfiger",
+            "nombre": "London",
+            "precio": 212,
+            "imagen": "london.jpg"
+        },
+        {
+            "id": 7,
+            "marca": "Calvin Klein",
+            "nombre": "Ck",
+            "precio": 38,
+            "imagen": "ck.jpg"
+        },
+        {
+            "id": 8,
+            "marca": "Calvin Klein",
+            "nombre": "Clasica",
+            "precio": 43,
+            "imagen": "clasica.jpg"
+        }
+    
+]
